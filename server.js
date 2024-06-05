@@ -6,7 +6,7 @@ const cors = require('cors'); // Add this line
 require('dotenv').config({ path: '../.env.backend' });
 
 const app = express();
-const PORT = process.env.PORT || 5002;
+const PORT = process.env.PORT;
 const DB_GET = process.env.DB_M;
 
 // Enable CORS
