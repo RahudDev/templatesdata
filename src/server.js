@@ -3,7 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const cors = require('cors'); // Add this line
-require('dotenv').config({ path: '../backend/.env.backend' });
+require('dotenv').config({ path: '../.env.backend' });
 
 const app = express();
 const PORT = process.env.PORT;
